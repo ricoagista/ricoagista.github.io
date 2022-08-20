@@ -3,7 +3,7 @@ vCard - Personal Portfolio
 # sidebar
 
 alt = Rico
-Richard hanrick
+Rico Shandika Jovial Agista
 Web developer
 
 Show Contacts
