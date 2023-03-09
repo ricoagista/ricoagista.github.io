@@ -783,23 +783,22 @@
 
         <section class="contact-form">
 
-          <h3 class="h3 form-title">Contact Me</h3>
- 
-          <li class="contact-item">
+          <h3 class="h3 form-title">Contact Form</h3>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+          <form action="#" class="form" data-form>
 
-              <a href="mailto:ricoagista@gmail.com" class="contact-link">ricoagista@gmail.com</a>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
 
-              <li class="contact-item">
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-                <div class="contact-info">
-                  <p class="contact-title">Phone</p>
-    
-                  <a href="https://wa.me/6281335358428?text=Hi" class="contact-link">+62 813-3535-8428</a>
-                </div>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
 
           </form>
 
