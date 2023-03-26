@@ -750,7 +750,7 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  filter: grayscale(0); /ini baut aktifin mode abu-abu, ubah ke 1
   transition: var(--transition-1);
 }
 
