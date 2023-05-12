@@ -750,7 +750,7 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(0); /ini baut aktifin mode abu-abu, ubah ke 1
+  filter: grayscale(0);
   transition: var(--transition-1);
 }
 
@@ -1753,7 +1753,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * BLOG
    */
 
-  .blog-banner-box { height:auto; weight:auto ; }
+  .blog-banner-box { height:auto; }
 
 }
 
