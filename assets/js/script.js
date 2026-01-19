@@ -21,6 +21,7 @@ for (let i = 0; i < formInputs.length; i++) {
   formInputs[i].addEventListener("input", function () {
 
     // check form validation
+    // Part 8 - p3r41-p3r41_m3ng_
     if (form.checkValidity()) {
       formBtn.removeAttribute("disabled")
     } else {

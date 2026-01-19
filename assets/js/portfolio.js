@@ -38,6 +38,7 @@ const filterFunc = function (selectedValue) {
 
 }
 
+// Part 7 - d4n_83rgu147_73r_
 // add event in all filter button items for large screen
 let lastClickedBtn = filterBtn[0];
 

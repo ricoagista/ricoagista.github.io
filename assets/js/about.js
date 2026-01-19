@@ -17,6 +17,8 @@ const testimonialsModalFunc = function () {
 }
 
 // add click event to all modal items
+// Part 6 - k31kh14$4n_83r$4u7_
+
 for (let i = 0; i < testimonialsItem.length; i++) {
 
   testimonialsItem[i].addEventListener("click", function () {

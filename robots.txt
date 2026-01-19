@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: Xixixi
+
+# Part 5 - C4r4_p4nd4ng_d4n_
