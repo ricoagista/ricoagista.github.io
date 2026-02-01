@@ -1,379 +1,359 @@
-<!-- Part 1 - Kaliber{73r1ng47_$3ru_ -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Web | Rico Agista</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="preload" href="./assets/images/08b7165b955ead482a086c7229b340f9.jpg" as="image">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web | Rico Agista</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/logo.png" href="img/logo.png">
 </head>
 
 <body>
-  <!--
-    - #MAIN
-  -->
-  <main>
-    <!--
-      - #SIDEBAR
-    -->
-    <aside class="sidebar" data-sidebar>
 
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Rico" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Rico Shandika J. A.</h1>
-
-          <p class="title">IT Enthusiast</p>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="img/icon.jpg" alt="Rico"
+                style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+        </div>
+        <div class="nav-links">
+            <a href="#about">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Project</a>
+            <a href="#experience">Experience</a>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+            <i class="fa-solid fa-sun"></i>
         </button>
+    </nav>
 
-      </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
 
-      <div class="sidebar-info_more">
+            <h1 class="hero-title" style="margin-top: 60px;">
+                Hi, I'm Rico Shandika<br>
+                Orchestrating secure, <span class="serif">scalable</span><br>
+                <span class="serif">cloud</span> environments<br>
+                with a focus on<br>
+                <span class="serif">reliability.</span>
+            </h1>
 
-        <div class="separator"></div>
+            <a href="https://docs.google.com/document/d/1Oy4bAbRB_kcbQHbGvW58RRk7KIO2hJBT/edit?usp=sharing&ouid=111976525341299867733&rtpof=true&sd=true"
+                class="btn-primary" target="_blank">Download CV</a>
 
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <h3>10+</h3>
+                    <p>Latest Project</p>
+                </div>
+                <div class="stat-item">
+                    <h3>3+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Commitment</p>
+                </div>
             </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:ricoagista@gmail.com" class="contact-link">ricoagista@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="#" class="contact-link">+62 812 345 678</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Malang, East Java, Indonesia</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/ricoagista/" target="_blank" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://github.com/ricoagista" target="_blank" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/rico_agista/" target="_blank" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-    <!--
-      - #main-content
-    -->
-    <div class="main-content">
-      <!--
-        - #NAVBAR
-      -->
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <a href="/" class="navbar-link active">About</a>
-            <!-- <button class="navbar-link  active" data-nav-link>About</button> -->
-          </li>
-
-          <li class="navbar-item">
-            <a href="resume" class="navbar-link">Resume</a>
-            <!-- <button class="navbar-link" data-nav-link>Resume</button> -->
-          </li>
-
-          <li class="navbar-item">
-            <a href="portfolio" class="navbar-link">Portfolio</a>
-            <!-- <button class="navbar-link" data-nav-link>Portfolio</button> -->
-          </li>
-
-          <li class="navbar-item">
-            <a href="certificate" class="navbar-link">Certificate</a>
-            <!-- <button class="navbar-link" data-nav-link>Certificate</button> -->
-          </li>
-
-        </ul>
-
-      </nav>
-      <!--
-        - #ABOUT
-      -->
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I am a student majoring in informatics from the University of Muhammadiyah Malang. I am a responsible, reliable individual and have the ability to work in a good team. I am ready to learn and develop further in a dynamic work environment.
-          </p>
-        </section>
-                <!--
-          - service
-        -->
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
         </div>
 
+        <!-- Floating Image (Desktop Only via CSS) -->
+        <div class="hero-image-wrapper">
+            <img src="img/hero-bg.jpg" alt="Rico Agista" class="hero-image">
+            <div class="hero-image-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+        </div>
 
-        <!--
-          - clients
-        -->
+        <!-- Social Side Floating -->
+        <div class="social-floating">
+            <a href="https://www.linkedin.com/in/ricoshandikajovialagista/" target="_blank" class="social-icon"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/ricoagista" target="_blank" class="social-icon"><i
+                    class="fa-brands fa-github"></i></a>
+            <a href="https://instagram.com/rico_agista" target="_blank" class="social-icon"><i
+                    class="fa-brands fa-instagram"></i></a>
+        </div>
+    </section>
 
-        <section class="clients">
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-title">About Me</span>
+            </div>
 
-          <h3 class="h3 clients-title">Badge</h3>
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>
+                        Architecting secure, <br>
+                        <span class="serif">scalable</span> digital systems.
+                    </h2>
+                    <div class="about-text">
+                        <p>I am a student majoring in Informatics from the University of Muhammadiyah Malang. I am a
+                            responsible, reliable individual with the ability to work well in teams. I am ready to learn
+                            and develop further in a dynamic work environment.</p>
+                    </div>
 
-          <ul class="clients-list has-scrollbar">
+                    <div class="tags">
+                        <span class="tag">Cloud Computing</span>
+                        <span class="tag">Cyber Security</span>
+                        <span class="tag">System Administrator</span>
+                        <span class="tag">DevOps</span>
+                        <span class="tag">Web Development</span>
+                        <span class="tag">UI/UX Design</span>
+                    </div>
+                </div>
 
-            <li class="clients-item">
-              <a href="https://www.credly.com/badges/385e04b4-c863-4126-ad9c-61fc945435ee/public_url" target="_blank">
-                <img src="https://ricoagista.github.io/ricoagista/badge/badge-1.png" alt="badge">
-              </a>
-            </li>
+                <div class="about-image-container">
+                    <img src="img/profile.png" alt="Rico Profile" class="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <li class="clients-item">
-              <a href="https://www.credly.com/badges/1b775a4d-7f89-437e-aeb7-31f6452ec43e/public_url" target="_blank">
-                <img src="https://ricoagista.github.io/ricoagista/badge/badge-2.png" alt="badge">
-              </a>
-            </li>
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-title">Services</span>
+            </div>
 
-            <li class="clients-item">
-              <a href="https://www.credly.com/badges/c5c5299b-da64-4178-80d3-2071cf90344b/public_url" target="_blank">
-                <img src="https://ricoagista.github.io/ricoagista/badge/badge-3.png" alt="badge">
-              </a>
-            </li>
+            <h2 style="font-size: 3rem; margin-bottom: 60px; max-width: 800px;">
+                Comprehensive <span style="color: var(--text-muted);">design & development</span> solutions.
+            </h2>
 
-            <li class="clients-item">
-              <a href="https://www.credly.com/badges/7dcde1ce-af66-4153-ab77-c02b6269e003/public_url" target="_blank">
-                <img src="https://ricoagista.github.io/ricoagista/badge/badge-4.png" alt="badge">
-              </a>
-            </li>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-cloud"></i></div>
+                    <h3>Cloud Computing</h3>
+                    <p>Designed and deployed scalable, highly available, and fault-tolerant systems on cloud platforms.
+                    </p>
+                </div>
 
-            <li class="clients-item">
-              <a href="https://www.credly.com/badges/cde5360f-f376-4132-87e7-ae11f3e8254e/public_url" target="_blank">
-                <img src="https://ricoagista.github.io/ricoagista/badge/badge-5.png" alt="badge">
-              </a>
-            </li>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-user-secret"></i></div>
+                    <h3>Cyber Security</h3>
+                    <p>Protecting data and infrastructure from cyber threats with advanced security strategies.</p>
+                </div>
 
-            <li class="clients-item">
-              <a href="https://www.credly.com/badges/25a92511-92ba-4189-9688-adcf27baffb9/public_url" target="_blank">
-                <img src="https://ricoagista.github.io/ricoagista/badge/badge-6.png" alt="badge">
-              </a>
-            </li>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-terminal"></i></div>
+                    <h3>System Administrator</h3>
+                    <p>Proficient in managing servers, shell scripting, and ensuring system stability.</p>
+                </div>
 
-            <li class="clients-item">
-              <a href="https://www.credly.com/badges/f8dda0b6-51ac-45f3-b43d-0e62fda1377f/public_url" target="_blank">
-                <img src="https://ricoagista.github.io/ricoagista/badge/badge-7.png" alt="badge">
-              </a>
-            </li>
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-gears"></i></div>
+                    <h3>DevOps</h3>
+                    <p>Streamlining development and operations processes for faster and more reliable software delivery.
+                    </p>
+                </div>
 
-          </ul>
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>High-quality development of sites at the professional level. Building fast, responsive, and
+                        scalable websites.</p>
+                </div>
 
-        </section>
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-layer-group"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>The most modern and high-quality design made at a professional level. Crafting intuitive and
+                        engaging user interfaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      </article>
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-  <script src="./assets/js/about.js"></script>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="projects-header">
+                <span class="section-title">Project</span>
+                <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-top: 20px;">
+                    <h2>Showcasing <span class="serif">digital experiences</span> that solve real problems.</h2>
+                    <a href="https://github.com/ricoagista?tab=repositories" target="_blank" class="view-all">View All
+                        Work <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/portfolio.jpg" alt="Personal Portfolio">
+                        <a href="https://github.com/ricoagista/ricoagista.github.io" target="_blank"
+                            class="arrow-btn"><i class="fa-solid fa-arrow-up"></i></a>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>Web Development</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <h3>Old Portfolio Website</h3>
+                        <p>My personal portfolio showcasing my projects and skills.</p>
+                        <a href="https://github.com/ricoagista/ricoagista.github.io" class="view-case">View Code <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
 
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/subnetting.jpg" alt="Subnetting Calculator">
+                        <a href="https://github.com/ricoagista/subnetting/" target="_blank" class="arrow-btn"><i
+                                class="fa-solid fa-arrow-up"></i></a>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>Web Development</span>
+                            <span>Networking</span>
+                        </div>
+                        <h3>Subnetting Calculator</h3>
+                        <p>A tool for calculating subnet masks, IP ranges, and network addresses.</p>
+                        <a href="https://github.com/ricoagista/subnetting/" class="view-case">View Code <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/siakad.jpg" alt="Siakad Website">
+                        <a href="https://github.com/ricoagista/siakad" target="_blank" class="arrow-btn"><i
+                                class="fa-solid fa-arrow-up"></i></a>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>Web Development</span>
+                            <span>PHP</span>
+                        </div>
+                        <h3>Siakad Website</h3>
+                        <p>Academic information system website for managing student data and grades.</p>
+                        <a href="https://github.com/ricoagista/siakad" class="view-case">View Code <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/food-delivery.jpg" alt="Food Delivery App">
+                        <a href="https://www.figma.com/file/NeRgVZReRgJtm5p2nT7HVG/Untitled?node-id=0%3A1&t=t5zzf1Kovlx4xLek-1"
+                            target="_blank" class="arrow-btn"><i class="fa-solid fa-arrow-up"></i></a>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>UI/UX Design</span>
+                            <span>Figma</span>
+                        </div>
+                        <h3>Food Delivery App</h3>
+                        <p>A modern food delivery application design focused on user convenience and speed.</p>
+                        <a href="https://www.figma.com/file/NeRgVZReRgJtm5p2nT7HVG/Untitled?node-id=0%3A1&t=t5zzf1Kovlx4xLek-1"
+                            class="view-case">View Design <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-title">Career Path</span>
+            </div>
+
+            <h2 style="font-size: 3rem; margin-bottom: 60px;">
+                Professional <span style="color: var(--text-muted);">Experience</span>
+            </h2>
+
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-left">
+                        <div class="company-name">University Of Muhammadiyah Malang</div>
+                        <div class="company-period">2024 - Present</div>
+                    </div>
+                    <div class="timeline-right">
+                        <div class="role-title">Informatics Student</div>
+                        <p class="role-desc">Pursuing degree in Informatics. Focusing on software engineering and web
+                            technologies.</p>
+                        <div class="tech-stack">
+                            <span>Java</span>
+                            <span>Web Dev</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-left">
+                        <div class="company-name">Langit Tujuh Group</div>
+                        <div class="company-period">Nov 2023 - Apr 2024</div>
+                    </div>
+                    <div class="timeline-right">
+                        <div class="role-title">Internship (Grounded Event)</div>
+                        <p class="role-desc">Internship for 6 months at Langit Tujuh Group Malang in the Grounded Event
+                            division with jobdesk Broadcast.</p>
+                        <div class="tech-stack">
+                            <span>Broadcasting</span>
+                            <span>Event Management</span>
+                            <span>Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-left">
+                        <div class="company-name">Telkom School Malang</div>
+                        <div class="company-period">2021 - 2024</div>
+                    </div>
+                    <div class="timeline-right">
+                        <div class="role-title">Computer & Network Engineering</div>
+                        <p class="role-desc">Vocational High School student majoring in Computer and Network
+                            Engineering.</p>
+                        <div class="tech-stack">
+                            <span>Networking</span>
+                            <span>Linux</span>
+                            <span>Basic Programming</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="mailto:ricoagista@gmail.com" class="social-icon"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/ricoshandikajovialagista/" class="social-icon"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/ricoagista" class="social-icon"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p style="color: var(--text-muted);">© 2026 Rico Shandika Jovial Agista. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
